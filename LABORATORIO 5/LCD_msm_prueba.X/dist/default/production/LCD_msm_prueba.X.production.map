@@ -1,0 +1,102 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Tue Jun 18 11:56:17 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_1       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_2       code   0x000020    program   0x0001e8
+                   .org_0       code   0x005000    program   0x00006e
+.config_300000_BUILD/DEFAULT/PRODUCTION/LCD_MSM    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/LCD_MSM    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/LCD_MSM    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/LCD_MSM    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/LCD_MSM    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/LCD_MSM    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000020    0x000207      
+                            0x005000    0x00506d      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+            610 out of 33048 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                LCD_Borra   0x0001fc    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+              LCD_Comando   0x0001b0    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 LCD_DATA   0x0001d6    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               LCD_Inicio   0x00015e    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      LT1   0x000110    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      LT2   0x00012a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      LT3   0x00014c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                     LTX2   0x000120    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                     LTX3   0x000142    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje1   0x005000    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje2   0x005018    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje3   0x005034    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje4   0x00504c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _2leeTabla   0x000042    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _2print   0x000050    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _2salir   0x000058    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _3leeTabla   0x00007a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _3print   0x000088    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _3salir   0x000090    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _5leeTabla   0x0000b6    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _5print   0x0000c4    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _5salir   0x0000cc    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _7leeTabla   0x0000e8    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _7print   0x0000f6    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _7salir   0x0000fe    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+         delayTimer_100us   0x000102    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+           delayTimer_1ms   0x00011a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+          delayTimer_50ms   0x00013c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      fin   0x0000fe    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                     main   0x000020    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     main   0x000020    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _2leeTabla   0x000042    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _2print   0x000050    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _2salir   0x000058    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _3leeTabla   0x00007a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _3print   0x000088    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _3salir   0x000090    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _5leeTabla   0x0000b6    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _5print   0x0000c4    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _5salir   0x0000cc    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               _7leeTabla   0x0000e8    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _7print   0x0000f6    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      fin   0x0000fe    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                  _7salir   0x0000fe    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+         delayTimer_100us   0x000102    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      LT1   0x000110    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+           delayTimer_1ms   0x00011a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                     LTX2   0x000120    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      LT2   0x00012a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+          delayTimer_50ms   0x00013c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                     LTX3   0x000142    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                      LT3   0x00014c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+               LCD_Inicio   0x00015e    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+              LCD_Comando   0x0001b0    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 LCD_DATA   0x0001d6    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                LCD_Borra   0x0001fc    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje1   0x005000    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje2   0x005018    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje3   0x005034    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+                 Mensaje4   0x00504c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\LCD_msm_prueba.X\LCD_msm_prueba.asm
+
+

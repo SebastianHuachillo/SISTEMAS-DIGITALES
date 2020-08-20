@@ -1,0 +1,76 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Wed Oct 31 10:19:02 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_1       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_2       code   0x000020    program   0x000110
+                   .org_0       code   0x000200    program   0x000012
+.config_300000_BUILD/DEFAULT/PRODUCTION/TECLADO    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/TECLADO    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/TECLADO    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/TECLADO    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/TECLADO    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/TECLADO    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000020    0x00012f      
+                            0x000200    0x000211      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+            302 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      LX2   0x000080    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                      LX3   0x000084    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     MAIN   0x000020    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     col1   0x0000f6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     col2   0x000106    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     col3   0x000116    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                  columna   0x0000e2    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                 continua   0x000122    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+               delay_10ms   0x00007c    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+              detec_tecla   0x000096    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                diferente   0x000062    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                    fila1   0x0000b6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                    fila2   0x0000c6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                    fila3   0x0000d6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                      lee   0x000040    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                   repite   0x00003a    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                   tabla1   0x000200    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     MAIN   0x000020    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                   repite   0x00003a    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                      lee   0x000040    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                diferente   0x000062    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+               delay_10ms   0x00007c    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                      LX2   0x000080    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                      LX3   0x000084    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+              detec_tecla   0x000096    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                    fila1   0x0000b6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                    fila2   0x0000c6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                    fila3   0x0000d6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                  columna   0x0000e2    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     col1   0x0000f6    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     col2   0x000106    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                     col3   0x000116    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                 continua   0x000122    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+                   tabla1   0x000200    program     static E:\Microcontroladores\MicroPIC\PIC18F4550\MPLABX\ASM\Teclado_leds_full.X\Teclado_leds_full.asm
+
+

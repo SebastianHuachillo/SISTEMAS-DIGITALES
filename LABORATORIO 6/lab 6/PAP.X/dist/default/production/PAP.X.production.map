@@ -1,0 +1,87 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Thu Jun 27 05:54:01 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x00001c
+                   .org_3       code   0x000100    program   0x0000ac
+.config_300000_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300006    program   0x000001
+.config_300008_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300008    program   0x000001
+.config_300009_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x300009    program   0x000001
+.config_30000A_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x30000a    program   0x000001
+.config_30000B_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x30000b    program   0x000001
+.config_30000C_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x30000c    program   0x000001
+.config_30000D_BUILD/DEFAULT/PRODUCTION/MENU.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x000033      
+                            0x000100    0x0001ab      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            220 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  HighInt   0x000032    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   LowInt   0x000018    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     MOV1   0x00011a    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     MOV2   0x000140    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     Main   0x000100    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    T10US   0x0001a2    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   T10us_   0x0001a6    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     T1MS   0x000196    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    T1ms_   0x00019a    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    T20MS   0x000182    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   T20ms_   0x000184    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   T250MS   0x000176    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                  T250ms_   0x00017a    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                  TRABAJO   0x00010c    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     TXMS   0x00018c    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                      TXS   0x000166    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    Txms_   0x00018e    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     Txs_   0x000168    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   LowInt   0x000018    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                  HighInt   0x000032    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     Main   0x000100    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                  TRABAJO   0x00010c    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     MOV1   0x00011a    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     MOV2   0x000140    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                      TXS   0x000166    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     Txs_   0x000168    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   T250MS   0x000176    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                  T250ms_   0x00017a    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    T20MS   0x000182    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   T20ms_   0x000184    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     TXMS   0x00018c    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    Txms_   0x00018e    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                     T1MS   0x000196    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    T1ms_   0x00019a    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                    T10US   0x0001a2    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+                   T10us_   0x0001a6    program     static C:\Users\luiseduardo\Desktop\mplab\EJEMPLO_ASM\PAP.X\menu.asm
+
+

@@ -1,0 +1,207 @@
+
+
+library IEEE;
+use IEEE.std_logic_1164.ALL;
+use IEEE.std_logic_arith.ALL;
+use IEEE.std_logic_unsigned.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity Div_freq is
+
+	port(clk:in std_logic;
+	      Q:out std_logic);
+			
+		
+end Div_freq;
+
+architecture limon of Div_freq is
+signal cuenta: std_logic_vector(24 downto 0);
+signal interno: std_logic;
+begin
+   process(clk)
+	begin 
+	
+		if rising_edge(clk) then 
+			
+			if cuenta = 25000000 then 
+			
+				cuenta <= (others  => '0');
+				interno <= not interno;
+			
+			else
+			
+				cuenta <= cuenta + 1;
+			end if;	
+		end if;
+	end process;
+  Q <= interno;
+
+end limon;
+	
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity Dec_rober is
+
+	port( A: in std_logic_vector(3 downto 0);
+			Za,Zb,Zc,Zd,ze,Zf,Zg: out std_logic); 
+			
+
+end Dec_rober;
+
+architecture nombre of Dec_rober is
+signal interno: std_logic_vector(6 downto 0);
+begin
+		
+		Za <= intero(0);Zb <= intero(1);Zc <= intero(2);
+		Zd <= intero(3);Ze <= intero(4);Zf <= intero(5);
+		Zg <= intero(6);
+		
+		with select
+			
+			interno <= "1000110" when "0000"
+			interno <= "1111110" when "0001"
+			interno <= "0011111" when "0011"
+         interno <= "1001111" when "0100"	
+			interno <= "1000110" when "0101"	
+			interno <= "0111110" when "0110"
+			interno <= "0000110" when "0111"
+			interno <= "0001110" when "1000"
+			interno <= "0001110" when "1001"
+			interno <= "1110111" when "1010"
+			interno <= "1000110" when "1011"
+			interno <= "1000110" when "1100"
+			interno <= "1001111" when "1101"
+			interno <= "1110111" when "1110"
+			interno <= "0001110" when "1111"
+			
+end nombre;
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_unsigned.ALL;
+use IEEE.STD_LOGIC_arith.ALL;
+
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity Cont_Mani is
+end Cont_Mani;
+	
+	port(clk: in std_logic;
+			X: out std_logic_vector(4 downto 0));
+			
+end Cont_Mani;
+		
+
+architecture rober of Cont_Mani is
+
+signal mani: out std_logic_vector(4 downto 0);
+
+begin
+	
+	process(clk)
+	begin
+		
+		if rising_edge(clk) then 
+			
+		 if mani = 15 then 
+				
+				mani <= '0';
+		
+		 else 
+			
+			mani <= mani + 1;
+		
+		 end if;
+		 
+		end if;
+		
+	end process;
+	
+	X <= mani;
+
+
+
+end mani;
+
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_unsigned.ALL;
+use IEEE.STD_LOGIC_arith.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx primitives in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity Sisdig_LB1 is
+	
+	port(clk: in std_logic;
+			P7S: out std_logic_vector(6 downto 0);
+			
+
+end Sisdig_LB1;
+
+architecture lb1 of Sisdig_LB1 is
+signal alpaca: std_logic_vector(4 downto 0);
+
+component Cont_Mani
+	
+	  port(clk: in std_logic;
+			X: out std_logic_vector(4 downto 0));
+			
+end component;
+
+component Dec_rober
+
+	port(A: in std_logic_Vector(4 downto 0);
+			Z: out std_logic_vector (6 downto 0);
+end component;
+
+begin
+
+			u1: Cont_Mani port map (clk,alpaca)
+			u2: Dec_rober port map (alpaca,P7S);
+
+
+
+end lb1;
+
+
+

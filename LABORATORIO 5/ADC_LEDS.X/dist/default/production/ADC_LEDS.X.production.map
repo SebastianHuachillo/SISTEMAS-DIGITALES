@@ -1,0 +1,54 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Fri Jun 14 14:44:03 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000020    program   0x000056
+.config_300000_BUILD/DEFAULT/PRODUCTION/ADC_LED    romdata   0x300000    program   0x000001
+.config_300001_BUILD/DEFAULT/PRODUCTION/ADC_LED    romdata   0x300001    program   0x000001
+.config_300002_BUILD/DEFAULT/PRODUCTION/ADC_LED    romdata   0x300002    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/ADC_LED    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/ADC_LED    romdata   0x300005    program   0x000001
+.config_300006_BUILD/DEFAULT/PRODUCTION/ADC_LED    romdata   0x300006    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000020    0x000075      
+                            0x300000    0x300003      
+                            0x300005    0x300006      
+            98 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                      LX1   0x000056    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                      LX2   0x00005a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                      LX3   0x00005e    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+               delay_50ms   0x000054    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                   espera   0x00003c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                     main   0x000020    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                 muestreo   0x00003a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                     main   0x000020    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                 muestreo   0x00003a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                   espera   0x00003c    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+               delay_50ms   0x000054    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                      LX1   0x000056    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                      LX2   0x00005a    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+                      LX3   0x00005e    program     static C:\Users\Sebastian\Documents\CICLO 5\SISTEMA DIGITALES\LABORATORIO 5\ADC_LEDS.X\ADC_LEDS.asm
+
+
